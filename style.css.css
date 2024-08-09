@@ -1,35 +1,48 @@
-body{
-    font-size:20px;
-    text-align:center;
-    font-family:"arial";
-    background-color:#F4CDDC;
-   
+body {
+  font-family: Arial, sans-serif;
 }
 
-.mi-boton {
+.calculator {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+
   padding: 10px 20px;
-  background-color: #FE758E;
-  color: black;
-  border: line;
-  border-radius: 30px;
+  background-color: #4CAF50; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
   cursor: pointer;
 }
 
-.caja {
-font-family: sans-serif;
-font-size: 18px;
-border-radius: 20px;
-color:#FDEAFC ;
-background:#E781E1;
-padding: 5px 10px;
-
+/* Estilo cuando el cursor pasa sobre el botón */
+button:hover {
+  background-color: #45a049;
 }
 
-.titulo{
-    font-family: cursive;
-    color:red;
-    font-size: 28px;
+label {
+  display: block; /* Hace que cada label ocupe una línea completa */
+  margin-bottom: 10px; /* Margen inferior para separación */
+  color: #333; /* Color del texto */
+  font-weight: bold; /* Texto en negrita */
 }
-
+h1 {
+  font-size: 24px; /* Tamaño del texto */
+  color: #333; /* Color del texto */
+  text-align: center; /* Centra el texto */
+  margin-bottom: 20px; /* Margen inferior para separación */
+}
+div {
+  font-size: 20px; /* Tamaño del texto */
+  color: #4CAF50; /* Color del texto */
+  text-align: center; /* Centra el texto */
+  margin-top: 20px; /* Margen superior para separación */
+}
 
  
